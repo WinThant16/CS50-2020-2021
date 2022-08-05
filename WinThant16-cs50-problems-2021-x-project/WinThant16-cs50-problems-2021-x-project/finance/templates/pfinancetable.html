@@ -1,0 +1,37 @@
+{% extends "layout2.html" %}
+
+{% block title %}
+    PersonalFinanceHistory
+{% endblock %}
+
+{% block main %}
+
+    <table class="table table-striped">
+        <thead>
+            <tr id="fontstyle3">
+                <th>Account Type</th>
+                <th>Account Name</th>
+                <th>Amount</th>
+                <th>Date & Time (GMT)</th>
+            </tr>
+        </thead>
+
+        </br>
+
+        <tfoot>
+    {% for phistory in phistory %}
+            <tr id="fontstyle4">
+                <td scope="row">{{ phistory[0] }}</td>
+                <td>{{ phistory[1] }}</td>
+                <td>${{ phistory[2] }}</td>
+                <td>{{ phistory[3] }}</td>
+            </tr>
+    {% endfor %}
+
+        </tfoot>
+    </table>
+
+    </br></br></br></br></br>
+    <footer><h6 id="normaltextstyle2">Here you can keep track of your personal finances.</br>
+    You can add the type of account and the amount spent/received.</h6></footer>
+{% endblock %}

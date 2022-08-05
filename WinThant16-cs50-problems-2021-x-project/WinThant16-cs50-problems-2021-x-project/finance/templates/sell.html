@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Sell
+{% endblock %}
+
+{% block main %}
+    <form action="/sell" method="post">
+        <div class="form-group">
+            <select id="stock" name="symbol" placeholder="Symbol">
+            {% for key, value in stocks.items() %}
+
+                <option value= {{ key }} placeholder="Symbol" autocomplete="off" id="buttonstyle1"> Share: {{ key }}, Owned: {{ value }} stocks </option>
+            {% endfor %}
+            </select>
+        </div>
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="shares" placeholder="Shares" type="number" min="1" id="buttonstyle1">
+        </div>
+        <button id="buttonstyle1" class="btn btn-primary" type="submit">Sell</button>
+    </form>
+    </br></br>
+    <h5 id="normaltextstyle4"><b>Here you can sell stocks. Simply select the stock you want to sell from the dropdown menu.</b></h5>
+    <h6 id="normaltextstyle4"><i><b>You need to purchase stocks first before you can sell them.</b></i></h6>
+    <h6 id="normaltextstyle4"><i>Please also keep in mind that you cannot sell partial shares.</i></h6>
+
+
+    </br></br></br></br></br>
+    <footer>This website can be used to see how well you fare while buying and selling stocks (using real-time stock values).</footer>
+{% endblock %}

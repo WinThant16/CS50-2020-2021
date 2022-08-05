@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Buy
+{% endblock %}
+
+{% block main %}
+    <form action="/buy" method="post" id="normaltextstyle2">
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="symbol" placeholder="Symbol" type="text" id="buttonstyle1">
+        </div>
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="shares" placeholder="Shares" type="number" min="1" id="buttonstyle1">
+        </div>
+        <button id="buttonstyle1" class="btn btn-primary" type="submit">Buy</button>
+    </form>
+    </br></br>
+    <h5 id="normaltextstyle2"><b>Here you can purchase stocks. Simply enter the symbol and amount of the stock you wish to buy.</b></h5>
+    <h6 id="normaltextstyle2"><i>Please keep in mind that you cannot buy partial shares.</i></h6>
+
+    </br></br></br></br></br>
+    <footer>This website can be used to see how well you fare while buying and selling stocks (using real-time stock values).</footer>
+{% endblock %}

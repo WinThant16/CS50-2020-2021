@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+
+{% block main %}
+    <form action="quote" method="post">
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="symbol" placeholder="Symbol" type="text" id="buttonstyle3">
+        </div>
+        <button id="buttonstyle3" class="btn btn-primary" type="submit"><b>Search</b></button>
+    </form>
+    </br>
+    </br>
+
+    <h5 id="normaltextstyle3"><b>Here you can look up stock prices by typing in their symbols.</b></h5>
+    <h6 id="normaltextstyle3"><i>For example, try searching up TSLA.</i></h6>
+
+    </br></br></br></br></br>
+    <footer>This website can be used to see how well you fare while buying and selling stocks (using real-time stock values).</footer>
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    TopUp
+{% endblock %}
+
+{% block main %}
+    <form action="/topup" method="post" id="normaltextstyle3">
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="amount" placeholder="Example: 1000" type="number" min="1" id="buttonstyle2">
+        </div>
+
+        <button id="buttonstyle2" class="btn btn-primary" type="submit">Top Up</button>
+    </form>
+    </br>
+
+    <h5 id="normaltextstyle4">Here you can refill your cash balance to buy more stocks. </br></h5>
+    <h6 id="normaltextstyle4">
+    Please enter amounts in integers only.
+    Enjoy!
+    </h6>
+
+
+    </br></br></br></br></br>
+    <footer>This website can be used to see how well you fare while buying and selling stocks (using real-time stock values).</footer>
+{% endblock %}

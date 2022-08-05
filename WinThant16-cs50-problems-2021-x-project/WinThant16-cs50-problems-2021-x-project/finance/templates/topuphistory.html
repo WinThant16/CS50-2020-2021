@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    TopUpHistory
+{% endblock %}
+
+{% block main %}
+
+    <table class="table table-striped">
+        <thead>
+            <tr id="fontstyle3">
+                <th>Previous Amount</th>
+                <th>Amount Added</th>
+                <th>Current Total Amount</th>
+                <th>Date & Time (GMT)</th>
+            </tr>
+        </thead>
+
+        </br>
+
+        <tfoot>
+    {% for topups in topups %}
+            <tr id="fontstyle4">
+                <td scope="row">{{ topups[0] |usd }}</td>
+                <td>{{ topups[1] |usd }}</td>
+                <td>{{ topups[2] |usd }}</td>
+                <td>{{ topups[3] }}</td>
+            </tr>
+    {% endfor %}
+
+        </tfoot>
+    </table>
+
+    </br></br></br></br></br>
+    <footer>This website can be used to see how well you fare while buying and selling stocks (using real-time stock values).</footer>
+{% endblock %}

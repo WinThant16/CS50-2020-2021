@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+
+        <p>A stock of {{stocksymbol["name"]}} {{stocksymbol["symbol"]}} is worth {{stocksymbol ["price"] | usd}}.</p>
+
+{% endblock %}

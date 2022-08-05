@@ -1,0 +1,133 @@
+
+/* for pounds(#) we use id,for "." we use class */
+/* styles for index page*/
+body
+{
+    background-color:#D7A9FA;
+}
+
+.tb1
+{
+    border: 4px double blue;
+    background-color: yellow;
+}
+
+td
+{
+    padding:15px;
+}
+
+
+.ind1
+{
+
+    text-align: center;
+    color: #160F78;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 48px;
+}
+
+#homepara
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #78130F;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+#fixed
+{
+    table-layout:fixed;
+    text-align:center;
+    width:100%;
+    border-width:3px;
+    border-style:ridge;
+    height:100%;
+}
+
+.rowcolor1
+{
+    border-color:#0DB612;
+    background-color:#C198E9;
+    border-style:ridge;
+}
+.td1
+{
+    border-style:double;
+    border-width:2px;
+
+}
+
+.rowcolor2
+{
+    border-color:#0DB612;
+
+    border-style:double;
+}
+
+
+/*universal buttons styles */
+
+.chimchar
+{
+    background-color:#FEBDBD;
+    border:ridge;
+    border-color:red;
+    color:#FE6F01;
+    padding:5px;
+    font-style:oblique;
+    font-family:'Montserrat', sans-serif;
+    font-size:30px;
+}
+.piplup
+{
+    background-color:#A7DEFE;
+    border:ridge;
+    border-color:blue;
+    color:#2C8DC6;
+    padding:5px;
+    font-style:oblique;
+    font-family:'Montserrat', sans-serif;
+    font-size:30px;
+}
+.turtwig
+{
+    background-color:#A5F48D;
+    border:ridge;
+    border-color:green;
+    color:#47B924;
+    padding:5px;
+    font-style:oblique;
+    font-family:'Montserrat', sans-serif;
+    font-size:30px;
+}
+#bgc
+{
+    background-color:#FEBDBD;
+}
+#bgp
+{
+    background-color:#A7DEFE;
+}
+#bgt
+{
+    background-color:#A5F48D;
+}
+/*paragraph styles */
+p
+{
+    font-family:'Montserrat', sans-serif;
+}
+.infotextp
+{
+    color:#0005a1;
+}
+.infotextc
+{
+    color:#9e0500;
+}
+.infotextt
+{
+    color:#009e0b;
+}

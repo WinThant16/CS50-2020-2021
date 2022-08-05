@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Stocks
+{% endblock%}
+
+{% block main %}
+    <h5 id="normaltextstyle3">
+    <b>
+        Here, you can check your portfolio for any stocks you currently own.
+        </br></br>
+        You can also view your total cash remaining.
+        </br>
+    </b>
+    </h5>
+    </br>
+    <table class="table table-striped">
+        <thead>
+            <tr id="fontstyle1">
+                <th id="fsize">Symbol
+
+                </th>
+                <th id="fsize">Name</th>
+                <th id="fsize">Shares</th>
+                <th id="fsize">Price</th>
+                <th id="fsize">TOTAL</th>
+            </tr>
+        </thead>
+
+        <tfoot>
+        {% for stock in stocks %}
+            <tr id="fontstyle2">
+                <td scope="row">{{ stock[0]}}</td>
+                <td>{{ stock[1] }}</td>
+                <td>{{ stock[2] }}</td>
+                <td>{{ stock[3] |usd}}</td>
+                <td id="fsize2">{{ stock[4] |usd}}</td>
+            </tr>
+        {% endfor %}
+            <tr id="fontstylecash">
+                <td scope="row" colspan=4 id="fsize2"><b>CASH</b></td>
+                <td id="fsize2">{{ cash|usd }}</td>
+            </tr>
+            <tr id="fontstyletotal">
+                <th scope="row" colspan=4 id="fsize2"><b>TOTAL</b></th>
+                <th id="fsize2">{{ total|usd }}</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    </br></br></br></br></br>
+    <footer>This website can be used to see how well you fare while buying and selling stocks (using real-time stock values).</footer>
+
+{% endblock %}
+

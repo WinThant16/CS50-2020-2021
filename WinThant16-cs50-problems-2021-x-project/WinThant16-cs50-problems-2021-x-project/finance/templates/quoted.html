@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+
+        <h4 id="normaltextstyle2">A stock of {{stocksymbol["name"]}} {{stocksymbol["symbol"]}} is worth {{stocksymbol ["price"] | usd}}.</h4>
+
+{% endblock %}

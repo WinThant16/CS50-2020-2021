@@ -1,0 +1,224 @@
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+main .form-control
+{
+    /* Center form controls */
+    display: inline-block;
+
+    /* Override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main
+{
+    /* Scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* Center contents */
+    text-align: center;
+}
+
+main img
+{
+    /* Constrain images on small screens */
+    max-width: 100%;
+}
+
+.success
+{
+    color:green;
+}
+
+#fontstyle1
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color:#033240;
+    color:white;
+    border:4px double;
+    border-color:#042557;
+}
+#fontstyle2
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #060e80;    /*dark blue */
+
+    border:double;
+    border-color:#042557;
+}
+#fontstyle3
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    color:white;
+    border:4px double;
+    background-color:#73001b;    /* dark red */
+    border-color:#042557;
+}
+#fontstyle4
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color:#ffebef;
+    color:#73001b;
+    border:4px double;
+    border-color:#042557;
+}
+
+#fontstylecash
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    color:#060e80;
+    background-color:#e3f9ff;
+    border:double;
+    border-color:#024f09;
+}
+#fontstyletotal
+{
+    background-color:#e3f9ff;
+    font-family: 'Noto Sans JP', sans-serif;
+    color:#060e80;
+    border:double;
+    border-color:#470206;
+}
+#fsize
+{
+    font-size:20px;
+}
+#fsize2
+{
+    font-size:18px;
+}
+
+#normaltextstyle1
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    color:#0505a1;    /* blue */
+
+}
+#normaltextstyle2
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    color:#530382;    /* purple */
+}
+
+#normaltextstyle3
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    color:#0b003d;    /* dark blue */
+}
+#normaltextstyle4
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    color:#42002c;    /* dark purple */
+}
+
+#navitem1
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    color:#ffdd00;
+    transition-delay:0.3s;
+}
+#navitem1:hover
+{
+    color:#ffdd00;
+    background-color:#1a1a1a;
+}
+
+#navitem2
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    color:#ffdd00;
+    transition-duration:0.3s;
+}
+#navitem2:hover
+{
+    color:#ffdd00;
+    background-color:#1a1a1a;
+}
+
+#bodystyle
+{
+    background-color:#e3e3e3;
+}
+
+#buttonstyle1
+{
+    background-color:#033240;
+    color:white;
+    border: 3px solid #033240; /* dark blue */
+    transition-duration:0.4s;
+}
+#buttonstyle1:hover
+{
+
+    background-color:#ccf4ff;
+    color:#033240 ;
+}
+
+#buttonstyle2
+{
+    background-color:#73001b;    /* dark red */
+    color:white;
+    border: 3px solid #73001b;
+    transition-duration:0.4s;
+}
+
+#buttonstyle2:hover
+{
+    background-color:#ffd9e2;
+    color:#73001b;
+}
+
+#buttonstyle3
+{
+    background-color:#000c73;    /* dark red */
+    color:white;
+    border: 3px solid #000c73;
+    transition-duration:0.4s;
+}
+#buttonstyle3:hover
+{
+    background-color:#dbebff;
+    color:#000c73;
+}
+
+#successflash
+{
+    background-color:#035443;
+    color:white;
+    transition-duration:0.1s;
+}
+#successflash:hover
+{
+    background-color:#e3e3e3;
+    color:#e3e3e3;
+}
+
+tr:nth-child(even)
+{
+    background-color:#edf4ff;    /*light blue */
+}
+tr:nth-child(odd)
+{
+    background-color:#d9e8ff;    /*light green*/
+}
