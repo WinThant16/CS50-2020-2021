@@ -40,4 +40,23 @@ finance.db is a database containing multiple tables that store information for t
 finance.db stores five tables, namely users, users_stocks, transactions, topups and pfinance.
 The tables are updated by sqlite3 commands in application.py and are responsible for displaying history, top-ups and personal finance tables.
 
+## Log In Page:
+![image](https://github.com/WinThant16/CS50-2020-2021/assets/74810222/9471a373-442e-4584-a95e-225616a3f75e)
+
+
+## Register Page:
+![image](https://github.com/WinThant16/CS50-2020-2021/assets/74810222/cdf5a48f-7d67-476a-877f-bc96aacb6dae)
+
+## Home Page:
+![image](https://github.com/WinThant16/CS50-2020-2021/assets/74810222/f41db3b1-2030-41a9-9e31-7bf553296278)
+
+## Buy Page:
+![image](https://github.com/WinThant16/CS50-2020-2021/assets/74810222/ed5dc931-ab67-4326-a492-1cab7eebaae2)
+
+## Refill Page:
+![image](https://github.com/WinThant16/CS50-2020-2021/assets/74810222/abd1068c-3980-4c86-99f8-86e9308adeb2)
+
+## Personal Finances Page:
+![image](https://github.com/WinThant16/CS50-2020-2021/assets/74810222/6ae59cfa-69c3-4944-9176-bddda3b4a087)
+
 
